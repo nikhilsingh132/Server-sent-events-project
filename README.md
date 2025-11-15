@@ -32,16 +32,7 @@ Server-Sent Events (SSE) is a technology enabling servers to push real-time upda
 - CORS-enabled for cross-origin requests
 - Graceful disconnect handling
 
-## 🛠️ Tech Stack
-
-- **Backend**: Node.js, Express 5.1.0, CORS middleware
-- **Frontend**: React 19.2.0, Create React App
-- **Communication**: Server-Sent Events (SSE)
-
 ## 📦 Installation
-
-### Prerequisites
-- Node.js 14+ and npm installed
 
 ### Quick Start
 
@@ -126,28 +117,6 @@ eventSource.onmessage = (event) => {
 | **Real-time** | ✅ Yes | ✅ Yes | ⚠️ Near real-time |
 | **Complexity** | Simple | Complex | Medium |
 | **Best For** | Notifications, Updates | Chat, Gaming | Fallback option |
-
-## 🚢 Deployment Tips
-
-1. **Environment Variables**: Store URLs and ports in `.env` files
-2. **HTTPS**: Use SSL certificates in production
-3. **Proxy**: Consider nginx for production deployment
-4. **Connection Limits**: Implement rate limiting
-5. **Error Recovery**: Add robust error handling
-6. **Authentication**: Implement token-based auth if needed
-
-## 🐛 Common Issues & Solutions
-
-**CORS Errors**
-- Ensure server CORS origin matches client URL
-
-**Connection Refused**
-- Verify both server and client are running
-- Check firewall settings
-
-**No Events Received**
-- Confirm EventSource URL is correct
-- Check browser console for errors
 
 ## 📚 Learn More
 
