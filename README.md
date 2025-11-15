@@ -7,9 +7,8 @@ A full-stack application demonstrating real-time server-to-client communication 
 Access the working demo at: [https://74jmltgd-3031.inc1.devtunnels.ms/](https://74jmltgd-3031.inc1.devtunnels.ms/)
 
 ## 🎥 Video Demo
-<video width="100%" controls>
-  <source src="https://github.com/user-attachments/assets/ecf76e4c-0fc8-45c1-a3f9-6c4a84c8e48d" type="video/mp4">
-</video>
+
+https://github.com/user-attachments/assets/ecf76e4c-0fc8-45c1-a3f9-6c4a84c8e48d
 
 ## 📋 Overview
 
