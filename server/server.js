@@ -5,8 +5,9 @@ const app = express();
 const PORT = process.env.PORT || 5051;
 
 // Use CORS middleware
+// Allow specific origin from env, or allow all origins if not set
 const corsOptions = {
-  origin: process.env.CLIENT_URL || "http://localhost:3031",
+  origin: process.env.CLIENT_URL || true, // true allows all origins
   optionsSuccessStatus: 200,
 };
 
