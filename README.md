@@ -4,7 +4,7 @@ A full-stack application demonstrating real-time server-to-client communication 
 
 ## 🚀 Live Demo
 
-Access the working demo at: [https://74jmltgd-3031.inc1.devtunnels.ms/](https://server-sent-events-explained.netlify.app/)
+Access the working demo at: [https://server-sent-events-explained.netlify.app/](https://server-sent-events-explained.netlify.app/)
 
 ## 🎥 Video Demo
 
