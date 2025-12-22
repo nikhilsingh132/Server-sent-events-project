@@ -14,9 +14,9 @@ function App() {
     if (!isConnected) {
       // 1. Create a new EventSource instance
       // This connects to our server's /events endpoint
-      const newEventSource = new EventSource(
-        "https://74jmltgd-5051.inc1.devtunnels.ms/events"
-      );
+      const serverUrl =
+        process.env.REACT_APP_SERVER_URL || "http://localhost:5051";
+      const newEventSource = new EventSource(`${serverUrl}/events`);
 
       // 2. Listen for messages from the server
       newEventSource.onmessage = (event) => {

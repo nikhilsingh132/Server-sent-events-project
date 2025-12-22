@@ -2,11 +2,11 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const PORT = 5051;
+const PORT = process.env.PORT || 5051;
 
 // Use CORS middleware
 const corsOptions = {
-  origin: "https://74jmltgd-3031.inc1.devtunnels.ms",
+  origin: process.env.CLIENT_URL || "http://localhost:3031",
   optionsSuccessStatus: 200,
 };
 
